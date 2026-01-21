@@ -69,6 +69,7 @@ class _MapScreenState extends State<MapScreen> {
                     urlTemplate:
                         'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
                     subdomains: const ['a', 'b', 'c'],
+                    userAgentPackageName: "com.example.live_location_tracker",
                     // tileProvider: const NonCachingNetworkTileProvider(),
                     keepBuffer: 2,
                   ),
